@@ -144,9 +144,32 @@ color: white;
     padding: 15px 0px;
 }
 
-.cardContainer img{
+
+
+.card img{
     width: 13%;
     border-radius: 10px;
+}
+.card .image{
+    position: relative;
+}
+.card .image div{
+    background-color: #60d360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    width: 44px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+    left: 88px;
+}
+.card .image div>img{
+    width: 26px;
+    height: 28px;
 }
 
 .spotify-albums .songDesc{
