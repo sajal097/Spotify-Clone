@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+    /* background-color: black;
+    color: white; */
+}
+
+
+/* body div{
+    border: 2px solid black;
+    padding: 10px;
+} */
+
+.site{
+    display: grid;
+    grid-template-columns: 25% 75%;
+column-gap: 10px;
+padding: 13px;
+background-color: black;
+
+}
+
+
+
+.left{
+    grid-column: 1/2;
+}
+
+/* .home .logo{
+    display: flex;
+    justify-content: flex-start;
+} */
+.home{
+    background-color: #121212;
+    margin-bottom: 7px;
+  
+
+}
+
+.home .logo{
+    
+}
+.home ul li{
+    list-style: none;
+    width: 25px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-weight: 700;
+
+}
+.home ul li:nth-child(2){
+    font-weight: 700;
+    color: #d6d6d6;
+}
+
+.bottom{
+    background-color: #121212;
+    color: white;
+    min-height: 75vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.library{
+    justify-content: space-between;
+}
+
+.library>div>span{
+color: #b3b3b3;   
+font-weight: 700;
+}
+.add-lib img{
+    width: 18px;
+    height: 35px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.8fr;
+    justify-items: center;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+.footer a{
+    color:#d6d6d6;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+
+
+.right{
+    border: 2px solid black;
+background-color: #121212;
+color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.header{
+    background-color: #161616;
+    color: white;
+     justify-content: space-between;
+     align-items: center;
+}
+.back-frwd span{
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.back-frwd img{
+    width: 21px;
+    height: 15px;
+    color:#d6d6d6;
+    
+}
+.btn{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: white;
+    color: #252424;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-trp{
+    background-color: transparent;
+    color:#d6d6d6 ;
+}
+.cardContainer{
+    padding: 15px 0px;
+}
+
+.cardContainer img{
+    width: 13%;
+    border-radius: 10px;
+}
+
+.spotify-albums .songDesc{
+    flex-direction: column;
+}
+.songDesc span{
+    margin: 2px;
+}

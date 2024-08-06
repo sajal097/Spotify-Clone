@@ -1,0 +1,59 @@
+.margin{
+    /* margin: 5px; */
+}
+
+.position{
+    position: relative;
+    z-index: 1;
+}
+
+/* img{
+width: 50px;
+height: 50px;
+} */
+
+.img{
+    width: 28px;
+    height: 38px;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.b-radius{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 15px;
+}
+.p-1{
+    padding: 10px;
+}
+.gap{
+    gap: 15px;
+}
+.display-n{
+    display: none;
+}
+.font-sm{
+    font-size: 14px;
+}
