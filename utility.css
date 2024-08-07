@@ -41,6 +41,9 @@ height: 50px;
 .b-radius{
     border-radius: 7px;
 }
+.border{
+    border: 2px solid red;
+}
 
 .m-1{
     margin: 15px;

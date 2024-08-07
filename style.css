@@ -142,9 +142,18 @@ color: white;
 }
 .cardContainer{
     padding: 15px 0px;
+    flex-wrap: wrap;
 }
-
-
+.card{
+    width: fit-content;
+    height: 240px;
+    
+    /* background-color: aqua; */
+}
+.card:hover{
+    cursor: pointer;
+    background-color: rgba(47, 47, 47, 0.733);
+}
 
 .card img{
     width: 13%;
@@ -152,9 +161,10 @@ color: white;
 }
 .card .image{
     position: relative;
+    width: 146px;
 }
 .card .image div{
-    background-color: #60d360;
+    background-color: #56c556;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,10 +176,22 @@ color: white;
     position: absolute;
     bottom: 12px;
     left: 88px;
+    cursor: pointer;
 }
+
+.card .image>img{
+    width: 100%;
+    object-fit: contain;
+}
+
 .card .image div>img{
     width: 26px;
     height: 28px;
+    /* object-fit property can be used */
+}
+.card .image div:hover{
+    background-color: #7dd37d;
+    transform: scale(1.05);
 }
 
 .spotify-albums .songDesc{
